@@ -1,0 +1,92 @@
+
+.totals {
+    width: 40%;
+    background-color: #181f32;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.range-wrapper {
+    width: 55%;
+    margin-right:5%;
+    padding:50px 0;
+}
+.calculator-wrapper {
+    display: flex;
+    width:960px;
+    margin:0 auto;
+}
+.calculator-calculator-wrapper {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.calculator-wrapper .pcLicenses-range, .calculator-wrapper .consoleLicenses-range {
+    width: 100%;
+}
+.calculator-wrapper .calculator-discount {
+    color: #999;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 15px;
+}
+.calculator-description {
+    font-family: Raleway, sans-serif;
+    font-size: 1em; 
+    color: black;
+    font-weight: 500;
+}
+.field-title {
+    font-family: Raleway, sans-serif;
+    font-size: 20px; 
+    color: #00c3fb;
+    font-weight: 600;
+    margin-bottom:0;
+}
+.calculator-selector {
+    font-family: Raleway, sans-serif;
+    font-size: 1em; 
+    color: #00c3fb;
+    font-weight: 500;
+}
+.totalPriceLabel, .savingsTotalLabel {
+    font-family: Raleway, sans-serif;
+    font-size: 1.3em; 
+    color: #00c3fb;
+    font-weight: 600;
+}
+.calculator-amount {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 1em; 
+    color: #0075FF; 
+    font-weight: 600;
+}
+.container-range {
+    background-color:rgba(255,255,255,0.075);
+    padding: 20px;
+}
+.totalPriceLabel, .savingsTotalLabel {
+    margin-bottom: 10px;
+}
+.totalPrice, .savingsTotal {
+    color:white;
+    font-size:35px;
+}
+.range-content {
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+.range-content:nth-child(3) {
+    margin-top:50px;
+}
+.range-content > * {
+    width:50%;
+}
+.range-content p {
+    text-align:right;
+}
+.range-content h4, .range-content p {
+    margin:0;
+}
